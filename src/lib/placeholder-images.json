@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "panettone-1",
-      "description": "A delicious gourmet panettone on a dark background.",
-      "imageUrl": "https://images.unsplash.com/photo-1606851686066-c7f17f1ece96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Z291cm1ldCUyMHBhbmV0dG9uZXxlbnwwfHx8fDE3NjQwOTQ2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "gourmet panettone"
+      "description": "Thumbnail do vídeo do YouTube: Panetone Perfeito - A Melhor Receita do Mundo",
+      "imageUrl": "https://img.youtube.com/vi/_wmQZbY0U0M/maxresdefault.jpg",
+      "imageHint": "panettone recipe"
     },
     {
       "id": "panettone-2",
