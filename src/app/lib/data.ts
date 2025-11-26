@@ -3,9 +3,9 @@ import type { Video } from './types';
 export const videos: Video[] = [
   {
     id: '1',
-    title: 'A Receita Definitiva de Panetone de Chocolate',
-    description: 'Aprenda a fazer o mais delicioso panetone de chocolate do zero. Esta receita é perfeita para as festas ou qualquer ocasião especial.',
-    youtubeId: '4N3iVHxQ1Uo',
+    title: 'Panetone Perfeito - A Melhor Receita do Mundo',
+    description: 'Aprenda o passo a passo para fazer um panetone perfeito, fofinho e delicioso com esta receita incrível.',
+    youtubeId: '_wmQZbY0U0M',
     imageId: 'panettone-1',
     isPremium: false,
   },
