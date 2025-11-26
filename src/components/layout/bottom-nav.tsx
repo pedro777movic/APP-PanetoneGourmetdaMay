@@ -6,10 +6,10 @@ import { Home, PlaySquare, Info, Mail } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navItems = [
-  { href: '/', label: 'Home', icon: Home },
-  { href: '/videos', label: 'Videos', icon: PlaySquare },
-  { href: '/about', label: 'About', icon: Info },
-  { href: '/contact', label: 'Contact', icon: Mail },
+  { href: '/', label: 'Início', icon: Home },
+  { href: '/videos', label: 'Vídeos', icon: PlaySquare },
+  { href: '/about', label: 'Sobre', icon: Info },
+  { href: '/contact', label: 'Contato', icon: Mail },
 ];
 
 export default function BottomNav() {

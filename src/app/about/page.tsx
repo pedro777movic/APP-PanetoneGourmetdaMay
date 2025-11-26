@@ -8,13 +8,13 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-headline text-primary mb-8 text-center">
-        About Panetone Gourmet da May
+        Sobre a Panetone Gourmet da May
       </h1>
       <Card className="max-w-4xl mx-auto bg-card shadow-lg shadow-black/20">
         <CardHeader className="p-0">
           <Image 
             src={aboutImage.imageUrl}
-            alt="About us"
+            alt="Sobre nós"
             width={800}
             height={600}
             className="rounded-t-lg object-cover w-full aspect-[4/2]"
@@ -22,16 +22,16 @@ export default function AboutPage() {
           />
         </CardHeader>
         <CardContent className="p-8">
-          <CardTitle className="font-headline text-3xl mb-4 text-primary">Our Story</CardTitle>
+          <CardTitle className="font-headline text-3xl mb-4 text-primary">Nossa História</CardTitle>
           <div className="space-y-6 font-body text-lg text-foreground/80">
             <p>
-              Welcome to Panetone Gourmet da May, where tradition meets innovation in the world of artisanal baking. Our journey began with a simple passion: to elevate the classic panettone into a true gourmet experience. May, our founder and chief baker, has spent years perfecting her craft, traveling through Italy to learn from the masters and sourcing only the finest, all-natural ingredients.
+              Bem-vindo à Panetone Gourmet da May, onde a tradição encontra a inovação no mundo da panificação artesanal. Nossa jornada começou com uma paixão simples: elevar o panetone clássico a uma verdadeira experiência gourmet. May, nossa fundadora e padeira-chefe, passou anos aperfeiçoando sua arte, viajando pela Itália para aprender com os mestres e buscando apenas os melhores ingredientes naturais.
             </p>
             <p>
-              Each panettone is a labor of love, slow-leavened over 72 hours to achieve its signature airy texture and rich, complex flavor. We believe in quality over quantity, which is why we produce in small batches to ensure every loaf meets our exacting standards.
+              Cada panetone é um trabalho de amor, com fermentação lenta de mais de 72 horas para alcançar sua textura arejada característica e sabor rico e complexo. Acreditamos na qualidade sobre a quantidade, e é por isso que produzimos em pequenos lotes para garantir que cada pão atenda aos nossos exigentes padrões.
             </p>
             <p>
-              Our mission is to share the joy of an exceptional panettone, transforming a holiday treat into a year-round delicacy. From our kitchen to your table, we invite you to taste the difference that passion, patience, and premium ingredients make.
+              Nossa missão é compartilhar a alegria de um panetone excepcional, transformando uma delícia de feriado em uma iguaria para o ano todo. Da nossa cozinha para a sua mesa, convidamos você a saborear a diferença que a paixão, a paciência e os ingredientes premium fazem.
             </p>
           </div>
         </CardContent>

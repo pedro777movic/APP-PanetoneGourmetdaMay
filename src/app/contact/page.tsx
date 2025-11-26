@@ -9,13 +9,13 @@ export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-headline text-primary mb-8 text-center">
-        Get In Touch
+        Entre em Contato
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
         <div className="space-y-8">
-          <h2 className="font-headline text-3xl">Contact Information</h2>
+          <h2 className="font-headline text-3xl">Informações de Contato</h2>
           <p className="text-lg text-muted-foreground">
-            Have a question, a special request, or just want to talk panettone? We'd love to hear from you.
+            Tem alguma dúvida, um pedido especial ou apenas quer falar sobre panetone? Adoraríamos ouvir de você.
           </p>
           <div className="space-y-4">
             <div className="flex items-center gap-4">
@@ -35,24 +35,24 @@ export default function ContactPage() {
 
         <Card className="bg-card p-2 shadow-lg shadow-black/20">
           <CardHeader>
-            <CardTitle className="font-headline text-2xl">Send us a Message</CardTitle>
+            <CardTitle className="font-headline text-2xl">Envie-nos uma Mensagem</CardTitle>
           </CardHeader>
           <CardContent>
             <form className="space-y-6">
               <div className="space-y-2">
-                <Label htmlFor="name" className="font-headline text-base">Name</Label>
-                <Input id="name" placeholder="Your Name" className="bg-background" />
+                <Label htmlFor="name" className="font-headline text-base">Nome</Label>
+                <Input id="name" placeholder="Seu Nome" className="bg-background" />
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email" className="font-headline text-base">Email</Label>
-                <Input id="email" type="email" placeholder="Your Email" className="bg-background"/>
+                <Input id="email" type="email" placeholder="Seu Email" className="bg-background"/>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="message" className="font-headline text-base">Message</Label>
-                <Textarea id="message" placeholder="Your message..." rows={5} className="bg-background"/>
+                <Label htmlFor="message" className="font-headline text-base">Mensagem</Label>
+                <Textarea id="message" placeholder="Sua mensagem..." rows={5} className="bg-background"/>
               </div>
               <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 uppercase font-bold tracking-widest">
-                Send Message
+                Enviar Mensagem
               </Button>
             </form>
           </CardContent>
