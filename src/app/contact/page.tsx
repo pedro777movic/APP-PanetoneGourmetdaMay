@@ -15,22 +15,8 @@ export default function ContactPage() {
         <div className="space-y-8">
           <h2 className="font-headline text-3xl">Informações de Contato</h2>
           <p className="text-lg text-muted-foreground">
-            Tem alguma dúvida, um pedido especial ou apenas quer falar sobre panetone? Adoraríamos ouvir de você.
+            Tem alguma dúvida, um pedido especial ou apenas quer falar sobre panetone? Adoraríamos ouvir de você. Preencha o formulário ao lado e retornaremos o mais breve possível.
           </p>
-          <div className="space-y-4">
-            <div className="flex items-center gap-4">
-              <Mail className="h-6 w-6 text-primary" />
-              <a href="mailto:contato@panetonedamay.com" className="text-lg hover:text-primary transition-colors">contato@panetonedamay.com</a>
-            </div>
-            <div className="flex items-center gap-4">
-              <Instagram className="h-6 w-6 text-primary" />
-              <a href="#" className="text-lg hover:text-primary transition-colors">@panetone_da_may</a>
-            </div>
-             <div className="flex items-center gap-4">
-              <Facebook className="h-6 w-6 text-primary" />
-              <a href="#" className="text-lg hover:text-primary transition-colors">/panetonegourmetdamay</a>
-            </div>
-          </div>
         </div>
 
         <Card className="bg-card p-2 shadow-lg shadow-black/20">
