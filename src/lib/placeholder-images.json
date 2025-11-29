@@ -2,7 +2,7 @@
   "placeholderImages": [
     {
       "id": "panettone-1",
-      "description": "Thumbnail do vídeo do YouTube: Panetone Perfeito - A Melhor Receita do Mundo",
+      "description": "Thumbnail do vídeo do YouTube: Panetone perfeito - Kinder Bueno",
       "imageUrl": "https://img.youtube.com/vi/_wmQZbY0U0M/maxresdefault.jpg",
       "imageHint": "panettone recipe"
     },
@@ -14,9 +14,9 @@
     },
     {
       "id": "panettone-3",
-      "description": "Panettone being prepared in a kitchen.",
-      "imageUrl": "https://images.unsplash.com/photo-1762304887363-ad6078b2568c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxiYWtpbmclMjBwYW5ldHRvbmV8ZW58MHx8fHwxNzY0MDA5OTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "baking panettone"
+      "description": "Thumbnail for carrot cake panettone video.",
+      "imageUrl": "https://img.youtube.com/vi/WfwLlODzfRA/maxresdefault.jpg",
+      "imageHint": "carrot cake panettone"
     },
     {
       "id": "panettone-4",
