@@ -11,7 +11,7 @@ export const videos: Video[] = [
   },
   {
     id: '2',
-    title: 'Panetone de Ferrero Rocher',
+    title: 'Panetone perfeito - Brigadeiro e KITKAT',
     description: 'Uma receita premium de panetone de Ferrero Rocher que vai impressionar a todos. Perfeito para uma ocasião especial.',
     youtubeId: '0qwydyeHoMs',
     imageId: 'panettone-2',
@@ -31,6 +31,6 @@ export const videos: Video[] = [
     description: 'Explore a rica história deste icônico pão doce italiano. Um documentário premium para os amantes da gastronomia.',
     youtubeId: 'A5IDt_a552I',
     imageId: 'panettone-4',
-    isPremium: true,
+isPremium: true,
   },
 ];
