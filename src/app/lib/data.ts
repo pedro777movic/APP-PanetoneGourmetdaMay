@@ -3,7 +3,7 @@ import type { Video } from './types';
 export const videos: Video[] = [
   {
     id: '1',
-    title: 'Panetone Perfeito - "KINDER BUENO"',
+    title: 'Panetone perfeito - Kinder Bueno',
     description: 'Aprenda o passo a passo para fazer um panetone perfeito, fofinho e delicioso com esta receita incrível.',
     youtubeId: '_wmQZbY0U0M',
     imageId: 'panettone-1',
