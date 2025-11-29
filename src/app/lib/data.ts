@@ -28,7 +28,7 @@ export const videos: Video[] = [
   {
     id: '4',
     title: 'Panetone perfeito - Segunda Receita de Bolo de De Cenoura',
-    description: 'Explore a rica história deste icônico pão doce italiano. Um documentário premium para os amantes da gastronomia.',
+    description: 'O sabor irresistível e cremoso do bolo de cenoura agora em uma segunda receita de panetone gourmet feito dessa receita irresistível.',
     youtubeId: 'mEy6uF4hA-Q',
     imageId: 'panettone-4',
     isPremium: true,
