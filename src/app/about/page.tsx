@@ -7,7 +7,7 @@ export default function AboutPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-headline text-primary mb-8 text-center">
+      <h1 className="text-3xl md:text-4xl font-headline text-primary mb-8 text-center">
         Sobre os panetones Gourmet da May
       </h1>
       <Card className="max-w-4xl mx-auto bg-card shadow-lg shadow-black/20">
@@ -21,9 +21,9 @@ export default function AboutPage() {
             data-ai-hint={aboutImage.imageHint}
           />
         </CardHeader>
-        <CardContent className="p-8">
-          <CardTitle className="font-headline text-3xl mb-4 text-primary">Nossa História</CardTitle>
-          <div className="space-y-6 font-body text-lg text-foreground/80">
+        <CardContent className="p-6 md:p-8">
+          <CardTitle className="font-headline text-2xl md:text-3xl mb-4 text-primary">Nossa História</CardTitle>
+          <div className="space-y-6 font-body text-base md:text-lg text-foreground/80">
             <p>
               Bem-vindo à Panetone Gourmet da May, onde a tradição encontra a inovação no mundo da panificação artesanal. Nossa jornada começou com uma paixão simples: elevar o panetone clássico a uma verdadeira experiência gourmet. May, fundadora e padeira-chefe, compartilha a arte da criação de panetones junto com suas SÓCIAS, cada uma trazendo uma arte de criação de panetones diferente. Delicie-se com essa magia gastronômica do Natal.
             </p>

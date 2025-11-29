@@ -28,8 +28,8 @@ export default function VideoPage({ params }: { params: { videoId: string } }) {
         
         <Card className="bg-card">
           <CardHeader>
-            <div className="flex justify-between items-start gap-4">
-              <CardTitle className="text-3xl font-headline text-primary">{video.title}</CardTitle>
+            <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
+              <CardTitle className="text-2xl md:text-3xl font-headline text-primary">{video.title}</CardTitle>
               {video.isPremium && (
                  <Badge
                     variant="default"
@@ -42,7 +42,7 @@ export default function VideoPage({ params }: { params: { videoId: string } }) {
             </div>
           </CardHeader>
           <CardContent>
-            <p className="font-body text-lg text-foreground/80">
+            <p className="font-body text-base md:text-lg text-foreground/80">
               {video.description}
             </p>
           </CardContent>

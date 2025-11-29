@@ -8,23 +8,23 @@ import { Mail, Instagram, Facebook } from 'lucide-react';
 export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-headline text-primary mb-8 text-center">
+      <h1 className="text-3xl md:text-4xl font-headline text-primary mb-8 text-center">
         Entre em Contato
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
-        <div className="space-y-8">
-          <h2 className="font-headline text-3xl">Informações de Contato</h2>
-          <p className="text-lg text-muted-foreground">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
+        <div className="space-y-4 md:space-y-8 text-center md:text-left">
+          <h2 className="font-headline text-2xl md:text-3xl">Informações de Contato</h2>
+          <p className="text-base md:text-lg text-muted-foreground">
             Tem alguma dúvida, um pedido especial ou apenas quer falar sobre panetone? Adoraríamos ouvir de você. Preencha o formulário ao lado e retornaremos o mais breve possível.
           </p>
         </div>
 
         <Card className="bg-card p-2 shadow-lg shadow-black/20">
           <CardHeader>
-            <CardTitle className="font-headline text-2xl">Envie-nos uma Mensagem</CardTitle>
+            <CardTitle className="font-headline text-xl md:text-2xl">Envie-nos uma Mensagem</CardTitle>
           </CardHeader>
           <CardContent>
-            <form className="space-y-6">
+            <form className="space-y-4 md:space-y-6">
               <div className="space-y-2">
                 <Label htmlFor="name" className="font-headline text-base">Nome</Label>
                 <Input id="name" placeholder="Seu Nome" className="bg-background" />

@@ -32,7 +32,7 @@ export default function VideoCard({ video }: VideoCardProps) {
           {video.isPremium && (
             <Badge
               variant="default"
-              className="absolute top-3 right-3 bg-primary text-primary-foreground gap-1.5"
+              className="absolute top-2 right-2 md:top-3 md:right-3 bg-primary text-primary-foreground gap-1.5"
             >
               <Crown className="h-3 w-3" />
               Premium
@@ -40,7 +40,7 @@ export default function VideoCard({ video }: VideoCardProps) {
           )}
         </CardHeader>
         <CardContent className="p-4">
-          <CardTitle className="font-headline text-xl leading-tight group-hover:text-primary transition-colors">
+          <CardTitle className="font-headline text-lg md:text-xl leading-tight group-hover:text-primary transition-colors">
             {video.title}
           </CardTitle>
         </CardContent>
