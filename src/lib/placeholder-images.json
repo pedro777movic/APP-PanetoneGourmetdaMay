@@ -23,6 +23,30 @@
       "description": "Thumbnail for second carrot cake panettone video.",
       "imageUrl": "https://img.youtube.com/vi/mEy6uF4hA-Q/maxresdefault.jpg",
       "imageHint": "carrot cake panettone"
+    },
+    {
+      "id": "panettone-5",
+      "description": "Thumbnail for Red Velvet panettone video.",
+      "imageUrl": "https://img.youtube.com/vi/qS0E0f_v-6s/maxresdefault.jpg",
+      "imageHint": "red velvet"
+    },
+    {
+      "id": "panettone-6",
+      "description": "Thumbnail for Sicilian Lemon panettone video.",
+      "imageUrl": "https://img.youtube.com/vi/z-T6N_V2yqg/maxresdefault.jpg",
+      "imageHint": "lemon dessert"
+    },
+    {
+      "id": "panettone-7",
+      "description": "Thumbnail for Nutella panettone video.",
+      "imageUrl": "https://img.youtube.com/vi/3GZtFmF-p0c/maxresdefault.jpg",
+      "imageHint": "chocolate panettone"
+    },
+    {
+      "id": "panettone-8",
+      "description": "Thumbnail for salty panettone video.",
+      "imageUrl": "https://img.youtube.com/vi/k4q8k2v_o_c/maxresdefault.jpg",
+      "imageHint": "savory bread"
     }
   ]
 }
