@@ -12,7 +12,7 @@ export const videos: Video[] = [
   {
     id: '2',
     title: 'Panetone perfeito - Brigadeiro e KITKAT',
-    description: 'Uma receita premium de panetone de Ferrero Rocher que vai impressionar a todos. Perfeito para uma ocasião especial.',
+    description: 'Uma receita premium de panetone de Brigadeiro E KITKAT que vai impressionar a todos. Perfeito para uma ocasião especial.',
     youtubeId: '0qwydyeHoMs',
     imageId: 'panettone-2',
     isPremium: true,
