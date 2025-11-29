@@ -19,7 +19,7 @@ export const videos: Video[] = [
   },
   {
     id: '3',
-    title: 'Mini Panetones Rápidos e Fáceis',
+    title: 'Panetone perfeito - Bolo De Cenoura',
     description: "Não tem tempo para um panetone de tamanho normal? Estas mini versões são rápidas, fáceis e igualmente deliciosas.",
     youtubeId: 'Yg_NYaStv3M',
     imageId: 'panettone-3',
