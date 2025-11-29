@@ -27,7 +27,7 @@ export const videos: Video[] = [
   },
   {
     id: '4',
-    title: 'A História do Panetone: Uma Jornada Culinária',
+    title: 'Panetone perfeito - Segunda Receita de Bolo de De Cenoura',
     description: 'Explore a rica história deste icônico pão doce italiano. Um documentário premium para os amantes da gastronomia.',
     youtubeId: 'A5IDt_a552I',
     imageId: 'panettone-4',
