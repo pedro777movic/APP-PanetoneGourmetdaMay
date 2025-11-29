@@ -8,7 +8,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-headline text-primary mb-8 text-center">
-        Sobre a Panetone Gourmet da May
+        Sobre os panetones Gourmet da May
       </h1>
       <Card className="max-w-4xl mx-auto bg-card shadow-lg shadow-black/20">
         <CardHeader className="p-0">
