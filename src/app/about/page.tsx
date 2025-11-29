@@ -25,13 +25,13 @@ export default function AboutPage() {
           <CardTitle className="font-headline text-3xl mb-4 text-primary">Nossa História</CardTitle>
           <div className="space-y-6 font-body text-lg text-foreground/80">
             <p>
-              Bem-vindo à Panetone Gourmet da May, onde a tradição encontra a inovação no mundo da panificação artesanal. Nossa jornada começou com uma paixão simples: elevar o panetone clássico a uma verdadeira experiência gourmet. May, nossa fundadora e padeira-chefe, passou anos aperfeiçoando sua arte, viajando pela Itália para aprender com os mestres e buscando apenas os melhores ingredientes naturais.
+              Bem-vindo à Panetone Gourmet da May, onde a tradição encontra a inovação no mundo da panificação artesanal. Nossa jornada começou com uma paixão simples: elevar o panetone clássico a uma verdadeira experiência gourmet. May, fundadora e padeira-chefe, compartilha a arte da criação de panetones junto com suas SÓCIAS, cada uma trazendo uma arte de criação de panetones diferente. Delicie-se com essa magia gastronômica do Natal.
             </p>
             <p>
-              Cada panetone é um trabalho de amor, com fermentação lenta de mais de 72 horas para alcançar sua textura arejada característica e sabor rico e complexo. Acreditamos na qualidade sobre a quantidade, e é por isso que produzimos em pequenos lotes para garantir que cada pão atenda aos nossos exigentes padrões.
+              Cada panetone é um trabalho de amor, com ingredientes diversos que granatem uma qualidade superior, eles alcançam uma textura arejada, característica e sabor rico e complexo. Acreditamos na qualidade sobre a quantidade, e é por isso que produzimos em pequenos lotes para garantir que cada pão atenda aos nossos exigentes padrões.
             </p>
             <p>
-             Nossa missão é compartilhar a alegria de um panetone excepcional, transformando uma delícia de feriado em uma iguaria para o ano todo. Da nossa cozinha para a sua mesa, convidamos você a saborear a diferença que a paixão, a paciência e os ingredientes premium fazem.
+             Nossa missão é compartilhar a alegria de um panetone excepcional, transformando uma delícia de feriado em uma iguaria para o ano todo. Da nossa cozinha para a sua mesa, convidamos você a saborear a diferença que a paixão, a paciência e os ingredientes PREMIUM fazem.
             </p>
           </div>
         </CardContent>
