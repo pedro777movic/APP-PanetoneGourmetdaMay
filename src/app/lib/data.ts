@@ -3,7 +3,7 @@ import type { Video } from './types';
 export const videos: Video[] = [
   {
     id: '1',
-    title: 'Panetone Perfeito - A Melhor Receita do Mundo',
+    title: 'Panetone Perfeito - "KINDER BUENO"',
     description: 'Aprenda o passo a passo para fazer um panetone perfeito, fofinho e delicioso com esta receita incrível.',
     youtubeId: '_wmQZbY0U0M',
     imageId: 'panettone-1',
