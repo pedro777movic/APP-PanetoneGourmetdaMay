@@ -39,7 +39,7 @@ export default function Home() {
           ))}
         </div>
          <div className="text-center mt-8">
-          <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 uppercase font-bold tracking-widest">
+          <Button asChild size="lg" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 uppercase font-bold tracking-widest">
             <Link href="/videos">Ver Todos os Vídeos</Link>
           </Button>
         </div>
