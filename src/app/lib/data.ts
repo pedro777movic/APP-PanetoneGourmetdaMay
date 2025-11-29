@@ -20,7 +20,7 @@ export const videos: Video[] = [
   {
     id: '3',
     title: 'Panetone perfeito - Bolo De Cenoura',
-    description: "Não tem tempo para um panetone de tamanho normal? Estas mini versões são rápidas, fáceis e igualmente deliciosas.",
+    description: "O sabor irresistível e cremoso do bolo de cenoura agora em um delicioso panetone gourmet.",
     youtubeId: 'WfwLlODzfRA',
     imageId: 'panettone-3',
     isPremium: false,
