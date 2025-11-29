@@ -11,9 +11,9 @@ export const videos: Video[] = [
   },
   {
     id: '2',
-    title: 'Masterclass: Aperfeiçoando a Massa do Panetone',
-    description: 'Um guia premium e detalhado para alcançar a textura e o sabor perfeitos da massa de panetone. Para padeiros sérios.',
-    youtubeId: '986iHh-hr8k',
+    title: 'Panetone de Ferrero Rocher',
+    description: 'Uma receita premium de panetone de Ferrero Rocher que vai impressionar a todos. Perfeito para uma ocasião especial.',
+    youtubeId: '0qwydyeHoMs',
     imageId: 'panettone-2',
     isPremium: true,
   },
