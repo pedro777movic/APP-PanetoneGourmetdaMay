@@ -31,7 +31,7 @@ export default function AboutPage() {
               Cada panetone é um trabalho de amor, com fermentação lenta de mais de 72 horas para alcançar sua textura arejada característica e sabor rico e complexo. Acreditamos na qualidade sobre a quantidade, e é por isso que produzimos em pequenos lotes para garantir que cada pão atenda aos nossos exigentes padrões.
             </p>
             <p>
-              Nossa missão é compartilhar a alegria de um panetone excepcional, transformando uma delícia de feriado em uma iguaria para o ano todo. Da nossa cozinha para a sua mesa, convidamos você a saborear a diferença que a paixão, a paciência e os ingredientes premium fazem.
+             Nossa missão é compartilhar a alegria de um panetone excepcional, transformando uma delícia de feriado em uma iguaria para o ano todo. Da nossa cozinha para a sua mesa, convidamos você a saborear a diferença que a paixão, a paciência e os ingredientes premium fazem.
             </p>
           </div>
         </CardContent>
