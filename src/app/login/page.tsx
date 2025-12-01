@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import { CandyCane, LogIn } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
+import Link from 'next/link';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -41,13 +42,18 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="container mx-auto flex min-h-screen items-center justify-center px-4 py-8">
+    <div className="container mx-auto flex min-h-screen flex-col items-center justify-center px-4 py-8">
+      <div className="mb-8 text-center">
+        <Link href="/" className="text-3xl md:text-4xl font-headline text-primary uppercase tracking-widest">
+          Panetone Gourmet da May
+        </Link>
+      </div>
       <Card className="w-full max-w-md bg-card shadow-lg shadow-black/30 border-primary/20 relative overflow-hidden">
         <div className="absolute top-4 right-4">
             <CandyCane className="h-10 w-10 text-primary/50" />
         </div>
         <CardHeader className="text-center">
-          <CardTitle className="text-3xl font-headline text-primary">Área Exclusiva</CardTitle>
+          <CardTitle className="text-2xl font-headline text-primary">Área Exclusiva</CardTitle>
           <CardDescription className="font-body text-base">Faça login para acessar o conteúdo premium.</CardDescription>
         </CardHeader>
         <CardContent>
