@@ -18,29 +18,34 @@ function AppContent({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (isLoading) return;
 
-    if (!isAuthenticated && pathname !== '/login') {
+    const isProtectedRoute = pathname !== '/login';
+
+    if (!isAuthenticated && isProtectedRoute) {
       router.replace('/login');
-    } else if (isAuthenticated && pathname === '/login') {
+    } else if (isAuthenticated && !isProtectedRoute) {
       router.replace('/');
     }
   }, [isAuthenticated, isLoading, pathname, router]);
 
-  // Durante o carregamento ou antes do redirecionamento, não renderiza nada para evitar piscar o conteúdo
-  if (isLoading || (!isAuthenticated && pathname !== '/login')) {
-    return null; // Renderiza um fragmento vazio
+  if (isLoading) {
+    return null; // ou um componente de loading global
   }
 
-  // Renderiza a página de login sem o layout principal
+  if (!isAuthenticated && pathname !== '/login') {
+    return null; // Evita renderizar conteúdo protegido antes do redirecionamento
+  }
+
   if (pathname === '/login') {
     return <main className="min-h-screen">{children}</main>;
   }
   
-  // Renderiza o layout principal para usuários autenticados
+  // Renderiza o layout principal apenas para usuários autenticados
   return (
     <>
       <Header />
       <main className="pb-24 pt-20 min-h-screen">{children}</main>
       <BottomNav />
+      <Toaster />
     </>
   );
 }
@@ -61,7 +66,6 @@ export default function RootLayout({
       <body className="font-body antialiased bg-background text-foreground">
         <AuthProvider>
             <AppContent>{children}</AppContent>
-            <Toaster />
         </AuthProvider>
       </body>
     </html>
