@@ -7,7 +7,7 @@ import BottomNav from '@/components/layout/bottom-nav';
 import { Toaster } from '@/components/ui/toaster';
 import { usePathname } from 'next/navigation';
 import { AuthProvider, useAuth } from '@/context/AuthContext';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
 function AppContent({ children }: { children: React.ReactNode }) {
@@ -16,7 +16,7 @@ function AppContent({ children }: { children: React.ReactNode }) {
   const router = useRouter();
 
   useEffect(() => {
-    if (isLoading) return; // Aguarda a verificação da autenticação
+    if (isLoading) return;
 
     if (!isAuthenticated && pathname !== '/login') {
       router.replace('/login');
@@ -25,32 +25,22 @@ function AppContent({ children }: { children: React.ReactNode }) {
     }
   }, [isAuthenticated, isLoading, pathname, router]);
 
-  if (isLoading) {
-    // Exibe um loader ou um corpo vazio enquanto verifica a autenticação
-    return (
-        <body className="font-body antialiased bg-background">
-            {/* Pode adicionar um spinner de carregamento aqui */}
-        </body>
-    );
-  }
-  
-  if (!isAuthenticated && pathname !== '/login') {
-     // Renderiza nada enquanto redireciona para a página de login
-     return (
-        <body className="font-body antialiased bg-background"></body>
-     );
+  // Durante o carregamento ou antes do redirecionamento, não renderiza nada para evitar piscar o conteúdo
+  if (isLoading || (!isAuthenticated && pathname !== '/login')) {
+    return null; // Renderiza um fragmento vazio
   }
 
+  // Renderiza a página de login sem o layout principal
   if (pathname === '/login') {
     return <main className="min-h-screen">{children}</main>;
   }
   
+  // Renderiza o layout principal para usuários autenticados
   return (
     <>
       <Header />
       <main className="pb-24 pt-20 min-h-screen">{children}</main>
       <BottomNav />
-      <Toaster />
     </>
   );
 }
@@ -68,7 +58,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Belleza&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-body antialiased">
+      <body className="font-body antialiased bg-background text-foreground">
         <AuthProvider>
             <AppContent>{children}</AppContent>
             <Toaster />
