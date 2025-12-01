@@ -20,9 +20,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     // 'useEffect' só roda no cliente, então 'sessionStorage' está seguro aqui.
     try {
       const storedAuth = sessionStorage.getItem('isAuthenticated');
-      if (storedAuth === 'true') {
-        setIsAuthenticated(true);
-      }
+      setIsAuthenticated(storedAuth === 'true');
     } catch (error) {
         console.error("Não foi possível acessar o sessionStorage.", error);
     }

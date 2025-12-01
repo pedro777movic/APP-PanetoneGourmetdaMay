@@ -18,36 +18,45 @@ function AppContent({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     if (isLoading) return;
 
-    const isProtectedRoute = pathname !== '/login';
+    const isAuthPage = pathname === '/login';
 
-    if (!isAuthenticated && isProtectedRoute) {
+    if (!isAuthenticated && !isAuthPage) {
       router.replace('/login');
-    } else if (isAuthenticated && !isProtectedRoute) {
+    } else if (isAuthenticated && isAuthPage) {
       router.replace('/');
     }
   }, [isAuthenticated, isLoading, pathname, router]);
 
   if (isLoading) {
-    return null; // ou um componente de loading global
+    return null; // Renderiza nada enquanto carrega o estado de autenticação
   }
 
   if (!isAuthenticated && pathname !== '/login') {
-    return null; // Evita renderizar conteúdo protegido antes do redirecionamento
+    return null; // Não renderiza nada em rotas protegidas se não estiver autenticado
   }
-
+  
   if (pathname === '/login') {
     return <main className="min-h-screen">{children}</main>;
   }
   
-  // Renderiza o layout principal apenas para usuários autenticados
-  return (
-    <>
-      <Header />
-      <main className="pb-24 pt-20 min-h-screen">{children}</main>
-      <BottomNav />
-      <Toaster />
-    </>
-  );
+  // Renderiza o layout principal apenas para usuários autenticados e nas rotas corretas
+  if (isAuthenticated && pathname !== '/login') {
+    return (
+      <>
+        <Header />
+        <main className="pb-24 pt-20 min-h-screen">{children}</main>
+        <BottomNav />
+        <Toaster />
+      </>
+    );
+  }
+
+  // Se for a página de login e não estiver autenticado, renderiza apenas o children
+  if(!isAuthenticated && pathname === '/login') {
+    return <main className="min-h-screen">{children}</main>;
+  }
+
+  return null;
 }
 
 
