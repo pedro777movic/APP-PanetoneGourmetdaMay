@@ -12,7 +12,7 @@ export default function ContactPage() {
         Entre em Contato
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
-        <div className="space-y-4 md:space-y-8 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-left">
           <h2 className="font-headline text-2xl md:text-3xl">Informações de Contato</h2>
           <p className="text-base md:text-lg text-muted-foreground">
             Tem alguma dúvida, um pedido especial ou apenas quer falar sobre panetone? Adoraríamos ouvir de você. Preencha o formulário ao lado e retornaremos o mais breve possível.
