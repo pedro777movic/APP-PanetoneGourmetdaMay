@@ -3,19 +3,28 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, PlaySquare, Info, Mail, User } from 'lucide-react';
+import { Home, PlaySquare, Info, Mail, LogOut } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useAuth } from '@/context/AuthContext';
+import { Button } from '../ui/button';
+import { useRouter } from 'next/navigation';
 
 const navItems = [
   { href: '/', label: 'Início', icon: Home },
   { href: '/videos', label: 'Vídeos', icon: PlaySquare },
-  { href: '/login', label: 'Login', icon: User },
   { href: '/about', label: 'Sobre', icon: Info },
   { href: '/contact', label: 'Contato', icon: Mail },
 ];
 
 export default function BottomNav() {
   const pathname = usePathname();
+  const { logout } = useAuth();
+  const router = useRouter();
+
+  const handleLogout = () => {
+    logout();
+    router.push('/login');
+  };
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 h-20 bg-card border-t border-border">
@@ -36,6 +45,13 @@ export default function BottomNav() {
             </Link>
           );
         })}
+        <button
+          onClick={handleLogout}
+          className="flex flex-col items-center justify-center text-xs sm:text-sm gap-1 text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <LogOut className="h-5 w-5 sm:h-6 sm:w-6" />
+          <span>Sair</span>
+        </button>
       </div>
     </nav>
   );
