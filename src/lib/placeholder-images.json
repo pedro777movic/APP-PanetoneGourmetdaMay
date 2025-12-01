@@ -47,6 +47,30 @@
       "description": "Thumbnail for Beijinho panettone video.",
       "imageUrl": "https://img.youtube.com/vi/IvDRkdF9irU/maxresdefault.jpg",
       "imageHint": "coconut dessert"
+    },
+    {
+      "id": "panettone-9",
+      "description": "Thumbnail for Red Velvet panettone video.",
+      "imageUrl": "https://images.unsplash.com/photo-1542966336-22953b5f7404?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxyZWQlMjB2ZWx2ZXR8ZW58MHx8fHwxNzY0NTE3MzA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red velvet"
+    },
+    {
+      "id": "panettone-10",
+      "description": "Thumbnail for Lemon Panettone video.",
+      "imageUrl": "https://images.unsplash.com/photo-1700224644179-e28388b34702?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsZW1vbiUyMGRlc3NlcnR8ZW58MHx8fHwxNzY0NjI0NTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon dessert"
+    },
+    {
+      "id": "panettone-11",
+      "description": "Thumbnail for Volcano Chocottone video.",
+      "imageUrl": "https://images.unsplash.com/photo-1720210745725-b926f8a16783?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaG9jb2xhdGUlMjB2b2xjYW5vfGVufDB8fHx8MTc2NDYyNDU2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate volcano"
+    },
+    {
+      "id": "panettone-12",
+      "description": "Thumbnail for Savory Panettone video.",
+      "imageUrl": "https://images.unsplash.com/photo-1695904255974-1f8511375566?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzYXZvcnklMjBicmVhZHxlbnwwfHx8fDE3NjQ2MjQ1NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "savory bread"
     }
   ]
 }
